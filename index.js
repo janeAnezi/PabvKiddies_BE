@@ -4,6 +4,7 @@ const cors = require('cors')
 const MemberModel = require('./models/member')
 const Product = require('./models/product');
 const path = require('path');
+const products = require('./products');
 
 require('dotenv').config();
 
